@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Typing Animation</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  .text-container {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.15em solid black;
+    animation: typing 1s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="text-container">
+  <span class="text">Welcome to my website!</span>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Add a delay before starting the typing animation
+    setTimeout(function() {
+      var textElement = document.querySelector('.text');
+      var text = textElement.textContent;
+      textElement.textContent = '';
+      var i = 0;
+      var typingEffect = setInterval(function() {
+        if (i < text.length) {
+          textElement.textContent += text.charAt(i);
+          i++;
+        } else {
+          clearInterval(typingEffect);
+        }
+      }, 50);
+    }, 1000); // Adjust delay as needed (in milliseconds)
+  });
+</script>
+</body>
+</html>

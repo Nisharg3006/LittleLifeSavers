@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>signUp and logIn page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.5/css/unicons.css">
+
+<body>
+  <section class="container">
+    <div class="forms">
+      <!-- login page -->
+      <div class="form login">
+        <span class="title">Sign in</span>
+        <form action="http://localhost/Project/login/login.php" method="post">
+          <div class="inputFields">
+            <input type="text" name="email" id="email" placeholder="enter your email" required><i class="uil uil-envelope-alt icon"></i>
+          </div>
+          <div class="inputFields">
+            <input type="password" name="password" class="password" placeholder="enter your password" required><i class="uil uil-padlock icon"></i><i class="uil uil-eye-slash showHide"></i>
+          </div>
+          <div class="checkText">
+            <div class="checkContent">
+              <input type="checkbox" name="remember" id="remember">
+              <label for="remember" id="remember" class="text">Remember Me!</label>
+            </div>
+            <a href="#" class="text">Forgot Passsword?</a>
+          </div>
+          <div class="inputFields button">
+            <input type="submit" name="submit" value="Login">
+          </div>
+        </form>
+        <div class="loginSignup">
+          <span class="text">Not yet a member? <a href="#" class="sign text">Sign up!</a></span>
+        </div>
+      </div>
+      <!-- signup page -->
+      <div class="form signup">
+        <span class="title">Sign up</span>
+        <form action="http://localhost/Project/login/signup.php" method="post">
+          <div class="inputFields">
+            <input type="text" name="fullName" id="fullName" placeholder="enter full name" required><i class="uil uil-user"></i>
+          </div>
+          <div class="inputFields">
+            <input type="text" name="userName" id="userName" placeholder="enter preferred username" required><i class="uil uil-at"></i>
+          </div>
+          <div class="inputFields">
+            <input type="text" name="email" id="email" placeholder="enter your email" required><i class="uil uil-envelope-alt"></i>
+          </div>
+          <div class="inputFields">
+            <input type="password" name="password" class="password" placeholder="create password" required><i class="uil uil-keyhole-circle"></i>
+          </div>
+          <div class="inputFields">
+            <input type="password" name="password" class="password" placeholder="re-type password" required><i class="uil uil-padlock"></i><i class="uil uil-eye-slash showHide"></i>
+          </div>
+          <div class="inputFields button">
+            <input type="submit" name="submit" value="Create account">
+          </div>
+        </form>
+        <div class="loginSignup">
+          <span class="text">Already a member? <a href="#" class="log text">Sign in</a></span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,366 @@
+.header
+{
+    height:100px;
+    border-width:1px;
+    border-style:solid;
+    border-color:grey;
+    display:flex;
+    flex-direction:row;
+    
+    background-color: #4834d4;
+    background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+
+.header-1
+{
+    width:250px;
+
+}
+.logo
+{
+    height:90px;
+    width:250px;
+    object-fit:cover;
+    object-position:contain;
+}
+body
+{
+    margin:0;
+    height:800px;
+     
+}
+.header-2
+{
+    width:1010px;
+    
+    
+}
+.first    
+{
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+   
+   margin-top:50px;
+   cursor:pointer;
+   margin-left:75px;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:10px;
+   padding-right:10px;
+   font-weight:bold;
+   color:black;
+   font-family:"Times New Roman",Times,serif;
+   font-size:14px;
+   vertical-align:top;
+   margin-right:50px;
+}
+.first:hover
+{
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    
+}
+.discover
+{
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    margin-top:50px;
+    cursor:pointer;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    font-weight:bold;
+    color:black;
+    font-family:"Times New Roman",Times,serif;
+    font-size:14px;
+    vertical-align:top;
+    margin-right:50px;
+}
+.discover:hover
+{
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+.articles  
+{
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+   
+   margin-top:50px;
+   cursor:pointer;
+   
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:10px;
+   padding-right:10px;
+   font-weight:bold;
+   color:black;
+   font-family:"Times New Roman",Times,serif;
+   font-size:14px;
+   vertical-align:top;
+   margin-right:50px;
+}
+.articles:hover
+{
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    
+}
+.askus
+{
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    margin-top:50px;
+    cursor:pointer;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    font-weight:bold;
+    color:black;
+    font-family:"Times New Roman",Times,serif;
+    font-size:14px;
+    vertical-align:top;
+    margin-right:50px;
+}
+.askus:hover
+{
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+.contactus
+{
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+    margin-top:50px;
+    cursor:pointer;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    font-weight:bold;
+    color:black;
+    font-family:"Times New Roman",Times,serif;
+    font-size:14px;
+    vertical-align:top;
+    margin-right:50px;
+}
+.contactus:hover
+{
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.publications
+{
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    margin-top:50px;
+    cursor:pointer;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    font-weight:bold;
+    color:black;
+    font-family:"Times New Roman",Times,serif;
+    font-size:14px;
+    vertical-align:top;
+    margin-right:50px;
+}
+.publications:hover
+{
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+.Login
+{
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+ 
+    margin-top:50px;
+    cursor:pointer;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    font-weight:bold;
+    color:black;
+    font-family:"Times New Roman",Times,serif;
+    font-size:14px;
+    vertical-align:top;
+    margin-right:50px;
+}
+.Login:hover
+{
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.main
+{
+    height: 1900px;
+    border-style:solid;
+    border-color:gray;
+    border-width:1px;
+   /* background: linear-gradient(to bottom, #d2ffff, #0694c6);*/
+   background-image: url("https://images.pexels.com/photos/2832772/pexels-photo-2832772.jpeg?auto=compress&cs=tinysrgb&w=600"); 
+   background-size:cover;
+   margin-top:100px;
+   display:flex;
+   flex-direction:row;
+   
+   
+}
+.main_2
+{
+  flex:1;
+}
+.pneumonia_title
+{
+    background: -webkit-radial-gradient(
+  circle,
+  rgba(0, 255, 255, 1) 0%, /* Cyan */
+  rgba(173, 216, 230, 1) 21%, /* Light Blue */
+  rgba(135, 206, 235, 1) 51%, /* Sky Blue */
+  rgba(0, 255, 0, 1) 100% /* Green */
+);
+    font-family:'Times New Roman', Times, serif;
+    font-size:50px; 
+    text-align:center;
+    font-weight:bold;
+    margin-bottom:0px;
+    margin-top:0px;
+    margin-right:0px;
+     /* Initially hide all paragraphs */
+   
+    
+}
+.pneumonia_text2
+{
+    color:white;
+    font-size:15px;
+    font-family:monospace;
+     /* Initially hide all paragraphs */
+     overflow: hidden;
+    border-right: 0.15em solid black;
+    display: none; /* Initially hide all paragraphs */
+}
+.pneumonia_text1
+{
+    color:#30dd8a;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:25px; 
+    text-align:center;
+    margin-top:25px;
+    overflow: hidden;
+    border-right: 0.15em solid black;
+    display: none; /* Initially hide all paragraphs */
+     /* Initially hide all paragraphs */
+}
+
+
+.end
+{
+    height:200px;
+    border-style:solid;
+    border-color:gray;
+    border-width:1px;
+    background-image: linear-gradient(to right, #33001b, #ff0084);
+    display:flex;
+    flex-direction:row;
+}
+.end1
+{
+    width:250px;
+}
+.logo2
+{
+    height:200px;
+}
+.end2
+{
+    width:300px;
+    margin-right:10px;
+}
+.text1
+{
+  margin-top:30px;
+  color:white;
+  font-family: 'Courier New', Courier, monospace; 
+  text-align:center;
+  font-size:20px;
+}
+
+.button-link {
+    padding: 10px 20px;
+    margin-left:80px;
+    margin-top:10px;
+    background-color:darkred;
+    color: #fff;
+    border-style:solid;
+    border-width:1.5px;
+    border-color:white;
+    border-radius: 5px;
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+     
+    cursor: pointer;
+}
+.button-link:hover
+{
+    background-color:Yellow;
+    color:green;
+    
+}
+
+.facebooklogo
+{
+    
+    width:40px;
+    height:40px;
+    margin-left:90px;
+}
+.linkedinlogo
+{
+    
+    width:40px;
+    height:40px;
+    margin-left:10px;
+}
+
+
+.end-3 {
+         /* Set background color */
+         /* Add padding */
+        width:600px;
+        height:200px;
+    }
+
+    .end-3 button
+     {
+        margin-left:50px;
+        margin-top:30px;
+        border: none; /* Remove border */
+        background-color: inherit; /* Inherit background color */
+         /* Add underline */
+        font-family: 'Courier New', Courier, monospace;
+        color: aqua; /* Set text color */
+        margin-right: 30px; /* Add spacing between buttons */
+        font-size:20px;
+        line-height:24px;
+        font-weight:bold;
+    }
+    .end-3 button:hover
+    {
+        text-decoration: underline;
+    }
+
+
+
